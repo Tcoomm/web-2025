@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Иван Иваныч",
+    "avatar": "images/Avatar.svg",
+    "description": "Весёлый позитивный",
+    "createdAt": 1630454400000,
+    "posts_count": 43
+  },
+  {
+    "id": 2,
+    "name": "Лиза Демина",
+    "avatar": "images/Avatar_Lisa.svg",
+    "description": "Делаю вдох",
+    "createdAt": 1630654400000,
+    "posts_count": 64
+  }
+]

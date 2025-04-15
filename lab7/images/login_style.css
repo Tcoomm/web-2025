@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Golos UI", sans-serif;
+    src: url("../fonts/Golos-UI/Golos-UI_Regular.ttf");
+}
+
+.wrapper {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-wrapper {
+    min-width: 343px;
+    max-height: 251px;
+}
+
+.form-login {
+    margin-bottom: 32px;
+}
+
+.form-login__email {
+    margin-bottom: 16px;
+}
+
+.image {
+    max-width: 462px;
+    max-height: 501px;
+}
+
+.form__label {
+    font-family: "Golos UI", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.form__input {
+    width: 343px;
+    height: 44px;
+    padding: 13px 12px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+    background-color: #F2F3F5;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.password__input {
+    width: 310px;
+    padding-right: 12px;
+    display: inline-block;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.email__label {
+    margin: 0;
+    font-size: 13px;
+    color: #808080;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+}
+
+.eye__button {
+    width: 24px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.eye__button-img {
+    width: 24px;
+    height: 24px;
+}
+
+.header {
+    font-family: "Golos UI", sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    margin: 0;
+    color: #222222;
+}
+
+.submit__input {
+    width: 343px;
+    height: 48px;
+    font-family: "Golos UI", sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.password__input-wrapper {
+    width: 343px;
+    height: 44px;
+    background-color: #F2F3F5;
+    border-radius: 10px;
+}

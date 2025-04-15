@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("../Fonts/Golos-UI_Regular.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Golos UI", sans-serif;
+}
+
+/* Блок: main-container */
+.main-container {
+    margin: 0;
+}
+
+/* Блок: main-header */
+.main-header {
+    font: 700 140px/180px 'Golos UI', sans-serif;
+    letter-spacing: -1.5px;
+    color: #222;
+}
+
+/* Блок формы */
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Элементы формы */
+.form__label {
+    font: 400 15px/18px 'Golos UI', sans-serif;
+    color: #222;
+}
+
+.form__input {
+    width: 343px;
+    height: 44px;
+    padding: 10px 12px 10px 12px;
+    background: #f2f3f5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form__password-wrapper {
+    position: relative;
+}
+
+.form__toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 22%;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form__hint {
+    font: 400 13px/16px 'Golos UI', sans-serif;
+    color: #808080;
+}
+
+.form__submit {
+    width: 343px;
+    height: 48px;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font: 500 16px 'Golos UI', sans-serif;
+    cursor: pointer;
+}

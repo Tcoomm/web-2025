@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "image": "images/Frame23.png",
+        "description": "Так красиво сегодня на улице!...",
+        "likes": 203,
+        "date": 1672531200
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "image": "images/Frame22.png",
+        "description": "Так красиво сегодня на улице!...",
+        "likes": 205,
+        "date": 1672531201
+    },
+    {
+        "id": 3,
+        "user_id": 2,
+        "image": "images/Frame24.png",
+        "description": "Так красиво сегодня на улице!...",
+        "likes": 205,
+        "date": 1672531201
+    }
+]

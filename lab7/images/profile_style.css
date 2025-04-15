@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Golos UI", sans-serif;
+    src: url("font/golos-ui_medium.ttf");
+}
+
+.user__name {
+    font-family: "Golos UI", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    color: #222222;
+}
+
+.user__descr {
+    display: block;
+    font-family: "Golos UI", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.avatar__img {
+    width: 123px;
+    height: 123px;
+}
+
+.posts__btn {
+    font-family: "Golos UI", sans-serif;
+    cursor: pointer;
+    background-color: #f2f3f5;
+    border: none;
+    border-radius: 6px;
+    width: 101px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.profile__post {
+    width: 322.35px;
+    max-height: 322.35px;
+}
+
+.bar__icons {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
