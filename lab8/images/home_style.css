@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Golos UI", sans-serif;
+    src: url("../fonts/Golos-UI/Golos-UI_Regular.ttf");
+}
+
+.avatar__img {
+    width: 32px;
+    height: 32px;
+}
+
+.user__name {
+    font-family: "Golos UI", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.likes__btn {
+    border: none;
+    width: 68px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2222220d;
+    border-radius: 8px;
+    font-family: "Golos UI", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post__description {
+    font-family: "Golos UI", sans-serif;
+    display: block;
+    font-weight: 400;
+    max-width: 474px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.more__btn {
+    padding: 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Golos UI", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+}
+
+.post__data {
+    font-family: "Golos UI", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+}
+
+.main__icons {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

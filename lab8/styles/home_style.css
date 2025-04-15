@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("../Fonts/Golos-UI_Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Golos UI", sans-serif;
+}
+
+
+.nav-bar {}
+
+.nav-bar__icon {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-bar__separator {
+    /* Стили разделителя (при необходимости) */
+}
+
+/* Блок профиля */
+.profile__avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.profile__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+
+.post__like-btn {
+    border: none;
+    width: 68px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2222220D;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+}
+
+.post__description {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post__more-btn {
+    padding: 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+}
+
+.post__date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+}

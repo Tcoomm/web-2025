@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "image": "images/denisphoto.png",
+        "description": "Так красиво сегодня на улице!...",
+        "likes": 203,
+        "date": 1672531200
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "image": "images/lisaphoto.png",
+        "description": "Так красиво сегодня на улице!...",
+        "likes": 300,
+        "date": 1672531201
+    }
+]
