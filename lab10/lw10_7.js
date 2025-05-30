@@ -15,20 +15,23 @@ function generatePassword(length) {
 
     const allChars = lowercase + uppercase + digits + symbols;
 
-    // Гарантированное включение всех 4 категорий
     const passwordChars = [
         getRandomChar(lowercase),
         getRandomChar(uppercase),
         getRandomChar(digits),
         getRandomChar(symbols),
-    ];
-
-    // Остальные символы — любые
+    ]
     for (let i = 4; i < length; i++) {
         passwordChars.push(getRandomChar(allChars));
     }
-
-    // Перемешать символы
-    return passwordChars.sort(() => Math.random() - 0.5).join('');
+    // Fisher–Yates shuffle
+    for (let i = passwordChars.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [passwordChars[i], passwordChars[j]] = [passwordChars[j], passwordChars[i]];
+    }
+    return passwordChars.join('');
 }
 console.log(generatePassword(8));  // Пример вывода: A8!rtsKd
+
+
+// Использование сортировки и случайного выбора (например, arr.sort(() => 0.5 - Math.random())) для перемешивания массива не рекомендуется, так как оно приводит к смещенным результатам и не обеспечивает равных шансов для каждого возможного порядка элементов. Более эффективным методом является использование алгоритма перемешивания Фишера-Йейтса (или его разновидностей), который обеспечивает равномерное распределение вероятностей и гарантирует несмещенные результаты. 
