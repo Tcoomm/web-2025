@@ -1,5 +1,5 @@
 INSERT INTO 
-	posts (
+	post (
 		id,
 		user_id,
 		content, 
